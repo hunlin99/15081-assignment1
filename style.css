@@ -40,6 +40,11 @@ nav ul li {
     position: relative;
 }
 
+.covercontent h1{
+    font-weight: bold;
+    font-size: 2em;
+}
+
 .coverimg {
     width: 100%;
     height: 100%;
@@ -56,16 +61,29 @@ nav ul li {
     text-shadow: 2px 2px #147f86;
 }
 
-.homebanner {
+
+.section1{
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    height: 30vh;
+    padding: 3%;
+}
+.cardholder{
+    width: 30%;
+    background-color: rgb(227, 228, 228);
+    border-radius: 0 2em 0 2em;
 }
 
-.bannerholderL {
-    width: 30%;
-    background-color: rgb(212, 161, 161);
+.section1 img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 0 2em 0 2em;
+}
+
+.cardholder p{
+    text-align: center;
+    margin-top: 8%;
 }
 
 .ADcontent {
@@ -108,8 +126,4 @@ footer {
 
 .footerR {
     text-align: end;
-}
-
-section .col {
-    object-fit: cover;
 }
