@@ -38,6 +38,7 @@ nav ul li {
     height: 30vh;
     background-color: antiquewhite;
     position: relative;
+    margin-bottom: 5%;
 }
 
 .covercontent h1{
@@ -88,4 +89,21 @@ footer {
 
 .footerR {
     text-align: end;
+}
+
+.seemorebox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seemore-btn{
+    height: 2em;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #dadada;
+    padding: 1%;
+    align-items: center;
+    display: flex;
+    border: none;
 }
