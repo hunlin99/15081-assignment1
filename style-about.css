@@ -20,7 +20,8 @@ header {
     width: 100%;
     height: 10vh;
     background-color: white;
-    z-index: 1000; /* 确保 header 在其他元素之上 */
+    z-index: 1000;
+    /* 确保 header 在其他元素之上 */
 }
 
 
@@ -41,7 +42,7 @@ nav ul li {
 }
 
 
-.col img{
+.col img {
     height: 100%;
     width: 100%;
     background-color: #147f86;
@@ -54,22 +55,31 @@ footer {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    max-width: 90vw;
+    margin: 0 auto;
 }
 
 .footerR {
     text-align: end;
 }
 
-.content-padding{
-    padding-left: 5%;
+.content-padding {
+    padding-left: 10%;
 }
 
-#content-margin{
+#content-margin {
     margin-top: 2%;
 }
 
 
-a:hover, a:visited, a:link, a:active {
+a:hover,
+a:visited,
+a:link,
+a:active {
     text-decoration: none;
     color: black;
-    }
+}
+
+.row .col {
+    padding: 0;
+}

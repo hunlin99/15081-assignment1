@@ -138,6 +138,9 @@ nav ul li {
     display: flex;
     align-items: center;
 }
+#content-holder h2{
+    padding: 10%;
+}
 .row .col{
     padding: 0;
 }
@@ -146,14 +149,14 @@ footer {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    max-width: 90vw;
+    margin: 0 auto;
 }
 
 .footerR {
     text-align: end;
 }
-.footerL{
-    padding-left: 3%;
-}
+
 
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;

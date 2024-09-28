@@ -72,15 +72,19 @@ nav ul li {
     color: aliceblue;
     text-shadow: 2px 2px #147f86;
 }
+#container{
+    max-width: 90vw;
+}
 
-.container{
-    padding: 3%;
+.col{
+    margin: 0;
 }
 
 .col img{
     height: 80%;
     width: 100%;
     background-color: #147f86;
+    object-fit: cover;
 }
 
 .col p{
@@ -88,17 +92,17 @@ nav ul li {
     margin-top: 5%;
 }
 
+
 footer {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    max-width: 90vw;
+    margin: 0 auto;
 }
 
 .footerR {
     text-align: end;
-}
-.footerL{
-    padding-left: 3%;
 }
 
 
