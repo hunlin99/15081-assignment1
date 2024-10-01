@@ -1,3 +1,35 @@
+:root {
+    --primary-color: #F1FBF7;
+    --accent-color: #19D1A9;
+    --text-color: #878883;
+    --background-color: #fff5ea;
+    --header-background: #A7BDB4;
+    --footer-background: #A7BDB4;
+    --footer-text-color: #357064;
+    --spacing-unit: 1em;
+}
+
+@font-face {
+    font-family: 'Alegreya-Bold-Italic';
+    src: url(./Alegreya_Sans/AlegreyaSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Alegreya-Regular';
+    src: url(./Alegreya_Sans/AlegreyaSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Alegreya-Bold';
+    src: url(./Alegreya_Sans/AlegreyaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Alegreya-Black';
+    src: url(./Alegreya_Sans/AlegreyaSans-Black.ttf);
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -12,19 +44,23 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2%;
+    padding: var(--spacing-unit);
     position: fixed;
     top: 0;
     width: 100%;
     height: 10vh;
-    background-color: white;
+    background-color: var(--footer-background);
     z-index: 1000;
     /* 确保 header 在其他元素之上 */
+    font-family: 'Alegreya-Bold-Italic';
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 2em;
     font-weight: bold;
+    font-family: 'Alegreya-Black';
+    padding-left: var(--spacing-unit);
+
 }
 
 nav ul {
@@ -38,11 +74,15 @@ nav ul li {
     margin-right: 20px;
 }
 
+a:hover {
+    opacity: 0.7;
+}
+
+
 
 .coverholder {
     width: 100%;
     height: 100vh;
-    background-color: antiquewhite;
     position: relative;
 }
 
@@ -63,9 +103,14 @@ nav ul li {
     bottom: 5%;
     left: 5%;
     font-size: 2em;
-    color: aliceblue;
-    text-shadow: 2px 2px #147f86;
+    color: var(--primary-color);
+    text-shadow: 2px 2px var(--footer-text-color);
+    font-family: 'Alegreya-Bold-Italic';
 }
+main{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    }
 
 .section1 {
     display: flex;
@@ -78,7 +123,7 @@ nav ul li {
 
 #cardholder {
     padding-bottom: 4em;
-    background-color: rgb(227, 228, 228);
+    background-color: var(--primary-color);
     border-radius: 0 2em 0 2em;
     margin: 1.5em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -92,7 +137,9 @@ nav ul li {
 
 #cardholder p {
     text-align: center;
-    margin-top: 1em;
+    margin-top: var(--spacing-unit);
+    font-family: 'Alegreya-Bold';
+    font-size: 1.2em;
 }
 
 .ADcontent {
@@ -130,22 +177,26 @@ nav ul li {
 .col img {
     height: 100%;
     width: 100%;
-    background-color: #147f86;
     object-fit: cover;
 }
 
 #img-holder {
     height: 80vh;
 }
+#img-holder img{
+    border-radius: 0 12em 0 12em;
+}
 
 #content-holder {
     text-align: center;
     display: flex;
     align-items: center;
+    font-family: 'Alegreya-Bold-Italic';
 }
 
 #content-holder h2 {
     padding: 10%;
+    font-family: 'Alegreya-Bold-Italic';
 }
 
 .row .col {
@@ -153,15 +204,38 @@ nav ul li {
 }
 
 footer {
-    padding: 20px;
+    width: 100%;
+    padding: var(--spacing-unit);
     display: flex;
     justify-content: space-between;
-    max-width: 90vw;
     margin: 0 auto;
+    background-color: var(--footer-background);
+    color: var(--footer-text-color);
+    font-family: 'Alegreya-Regular';
+}
+
+.footerL {
+    padding-left: var(--spacing-unit);
 }
 
 .footerR {
     text-align: end;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.footerR a {
+    padding: var(--spacing-unit);
+}
+
+.footerR p {
+    margin: 0;
+}
+
+.footerR hr {
+    margin: 0.5em;
 }
 
 
@@ -170,8 +244,10 @@ a:visited,
 a:link,
 a:active {
     text-decoration: none;
-    color: black;
+    color: var(--footer-text-color);
 }
+
+
 
 @media only screen and (max-width: 768px) {
     .content-padding {
@@ -182,12 +258,10 @@ a:active {
         order: 1;
     }
 
-    ;
-
     div#content-holder {
         order: 2;
     }
-
-    ;
-
+    .footerR {
+        display: none; /* Hide the footerR div */
+    }
 }
