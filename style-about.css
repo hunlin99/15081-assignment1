@@ -67,8 +67,8 @@ footer {
     padding-left: 10%;
 }
 
-#content-margin {
-    margin-top: 2%;
+#content-holder1, #content-holder2 {
+    margin-top: 1em;
 }
 
 
@@ -82,4 +82,16 @@ a:active {
 
 .row .col {
     padding: 0;
+}
+
+@media only screen and (max-width: 750px){
+    .content-padding {
+        padding-left: 0;
+    }
+    div#imgholder {order: 1;}
+
+    #content-holder2{
+        margin: 1em;
+    }
+
 }

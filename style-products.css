@@ -85,6 +85,8 @@ nav ul li {
     width: 100%;
     background-color: #147f86;
     object-fit: cover;
+    border-radius: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .col p{
