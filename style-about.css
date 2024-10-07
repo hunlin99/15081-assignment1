@@ -102,7 +102,9 @@ a:hover {
 h1, .col-4{
     font-family: 'Alegreya-Bold';
 }
-
+#container{
+    padding: 0;
+}
 
 footer {
     width: 100%;
