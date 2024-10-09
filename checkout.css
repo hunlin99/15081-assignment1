@@ -28,14 +28,21 @@
     src: url(./Alegreya_Sans/AlegreyaSans-Black.ttf);
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.container {
+    max-width: 960px;
+  }
+  
+.lh-condensed { line-height: 1.25; }
+
+body{
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    color: var(--footer-text-color);
 }
 
-body {
-    margin: 0 auto;
+.form{
+    padding: var(--spacing-unit);
+    font-family: 'Alegreya-Regular';
 }
 
 header {
@@ -75,15 +82,6 @@ a:hover {
     opacity: 0.7;
 }
 
-main{
-background-color: var(--background-color);
-color: var(--text-color);
-}
-
-h2{
-    font-family: 'Alegreya-Bold';
-}
-
 .coverholder {
     width: 100%;
     height: 30vh;
@@ -116,96 +114,8 @@ h2{
     color: aliceblue;
     text-shadow: 2px 2px #147f86;
 }
-
-#container{
-    max-width: 90vw;
-    padding-bottom: var(--spacing-unit);
-}
-
-.col{
-    margin: 0;
-}
-
-.col img{
-    height: 80%;
-    width: 100%;
-    background-color: #147f86;
-    object-fit: cover;
-    border-radius: var(--spacing-unit);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.col p{
-    text-align: center;
-    margin-top: var(--spacing-unit);
-    font-family: 'Alegreya-Bold';
-    font-size: 1em;
-}
-
-
-footer {
-    width: 100%;
-    padding: var(--spacing-unit);
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    background-color: var(--footer-background);
-    color: var(--footer-text-color);
-    font-family: 'Alegreya-Regular';
-}
-
-.footerL {
-    padding-left: var(--spacing-unit);
-}
-
-.footerR {
-    text-align: end;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.footerR a {
-    padding: var(--spacing-unit);
-}
-
-.footerR p {
-    margin: 0;
-}
-
-.footerR hr {
-    margin: 0.5em;
-}
-
-
-.seemorebox{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.seemore-btn{
-    height: 2em;
-    text-align: center;
-    border-radius: 5px;
-    background-color: var(--header-background);
-    color: var(--footer-text-color);
-    padding: 1%;
-    align-items: center;
-    display: flex;
-    border: none;
-    font-family: 'Alegreya-Regular';
-}
 a:hover, a:visited, a:link, a:active {
     text-decoration: none;
     color: var(--footer-text-color);
     }
-    @media only screen and (max-width: 750px){
 
-        .footerR {
-            display: none; /* Hide the footerR div */
-        }
-    
-    }
-    
