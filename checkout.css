@@ -55,7 +55,7 @@ header {
     width: 100%;
     height: 10vh;
     background-color: var(--footer-background);
-    z-index: 1000; /* 确保 header 在其他元素之上 */
+    z-index: 9999; /* 确保 header 在其他元素之上 */
     font-family: 'Alegreya-Bold-Italic';
 }
 
