@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="./style-products.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--AOS animation links-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Document</title>
 </head>
 
@@ -29,25 +31,23 @@
                 <h1>Organic Care</h1>
                 <p>Taking care of your skin for you</p>
             </div>
-            <img src="./image/2151382842.jpg" alt="coverimg"
-                class="coverimg">
+            <img src="./image/2151382842.jpg" alt="coverimg" class="coverimg">
         </div>
-
         <div class="container" id="container">
             <div class="seemorebox">
                 <h3>Sensitive Skin</h3>
-                <button class="seemore-btn">see more</button>
+                <!--<button class="seemore-btn">see more</button>-->
             </div>
             <div class="row">
-                <div class="col col-12 col-md">
+                <div class="col col-12 col-md" data-aos="fade-up">
                     <img src="./image/profuct-1.jpg" alt="">
                     <p>peoduct-name</p>
                 </div>
-                <div class="col col-12 col-md">
+                <div class="col col-12 col-md" data-aos="fade-up">
                     <img src="./image/profuct-2.jpg" alt="">
                     <p>peoduct-name</p>
                 </div>
-                <div class="col col-12 col-md">
+                <div class="col col-12 col-md" data-aos="fade-up">
                     <img src="./image/profuct-3.jpg" alt="">
                     <p>peoduct-name</p>
                 </div>
@@ -56,18 +56,18 @@
         <div class="container" id="container">
             <div class="seemorebox">
                 <h3>Dry Skin</h3>
-                <button class="seemore-btn">see more</button>
+                <!--<button class="seemore-btn">see more</button>-->
             </div>
             <div class="row">
-                <div class="col col-12 col-md">
+                <div class="col col-12 col-md" data-aos="fade-up">
                     <img src="./image/profuct-4.jpg" alt="">
                     <p>peoduct-name</p>
                 </div>
-                <div class="col col-12 col-md">
+                <div class="col col-12 col-md" data-aos="fade-up">
                     <img src="./image/profuct-5.jpg" alt="">
                     <p>peoduct-name</p>
                 </div>
-                <div class="col col-12 col-md">
+                <div class="col col-12 col-md" data-aos="fade-up">
                     <img src="./image/profuct-6.jpg" alt="">
                     <p>peoduct-name</p>
                 </div>
@@ -76,18 +76,18 @@
         <div class="container" id="container">
             <div class="seemorebox">
                 <h3>Combination Skin</h3>
-                <button class="seemore-btn">see more</button>
+                <!--<button class="seemore-btn">see more</button>-->
             </div>
             <div class="row">
-                <div class="col col-12 col-md">
+                <div class="col col-12 col-md" data-aos="fade-up">
                     <img src="./image/profuct-8.jpg" alt="">
                     <p>peoduct-name</p>
                 </div>
-                <div class="col col-12 col-md">
+                <div class="col col-12 col-md" data-aos="fade-up">
                     <img src="./image/profuct-9.jpg" alt="">
                     <p>peoduct-name</p>
                 </div>
-                <div class="col col-12 col-md">
+                <div class="col col-12 col-md" data-aos="fade-up">
                     <img src="./image/profuct-7.jpg" alt="">
                     <p>peoduct-name</p>
                 </div>
@@ -106,13 +106,14 @@
         <div class="footerR">
             <p>Follow us for more live promotions</p>
             <hr>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-instagram"></a>
-            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-facebook" style="font-size:24px"></a>
+            <a href="#" class="fa fa-instagram" style="font-size:24px"></a>
+            <a href="#" class="fa fa-youtube" style="font-size:24px"></a>
         </div>
     </footer>
-
-
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
