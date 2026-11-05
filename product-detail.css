@@ -1,0 +1,38 @@
+/* Detail pages share the catalogue's palette and bundled Alegreya typefaces. */
+.product-detail {
+    padding: calc(10vh + 2rem) 5vw 4rem;
+    font-family: 'Alegreya-Regular', sans-serif;
+}
+.breadcrumbs { display: flex; flex-wrap: wrap; gap: .65rem; margin-bottom: 2rem; font-size: 1rem; }
+.product-overview { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2rem, 6vw, 6rem); align-items: center; }
+.product-photo { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 1em; }
+.product-copy { max-width: 36rem; }
+.eyebrow { color: var(--footer-text-color); letter-spacing: .08em; font-size: .9rem; text-transform: uppercase; }
+.product-copy h1 { font-family: 'Alegreya-Bold'; font-size: clamp(2.25rem, 4vw, 3.75rem); line-height: 1.08; color: var(--footer-text-color); margin: .75rem 0 1rem; }
+.ingredients { font-size: 1.3rem; }
+.product-description { font-size: 1.2rem; line-height: 1.6; margin: 1.5rem 0; }
+.benefits { display: flex; flex-wrap: wrap; gap: .5rem; padding: 0; list-style: none; }
+.benefits li { border: 1px solid var(--header-background); border-radius: 2rem; padding: .4rem .85rem; color: var(--footer-text-color); }
+.product-specs { border-top: 1px solid var(--header-background); border-bottom: 1px solid var(--header-background); margin: 1.75rem 0; padding: 1rem 0; }
+.product-specs div { display: flex; justify-content: space-between; gap: 1rem; }
+.product-specs dd { margin: 0; }
+a.browse-button { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 1.3rem; border-radius: .5rem; background: var(--header-background); color: #234d44; font-size: 1.15rem; }
+.sample-note { font-size: .9rem; margin-top: 1rem; }
+.related-products { margin-top: 4rem; }
+.related-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; border-bottom: 1px solid var(--header-background); margin-bottom: 1.5rem; }
+.related-heading h2 { font-family: 'Alegreya-Bold'; font-size: 1.75rem; }
+.related-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; max-width: 52rem; }
+.related-card img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 1em; }
+.related-card h3 { font-size: 1.3rem; margin: 1rem 0 .4rem; }
+.related-card p { margin-bottom: .4rem; }
+a:focus-visible { outline: 3px solid var(--footer-text-color); outline-offset: 5px; }
+@media (max-width: 750px) {
+    .product-overview { grid-template-columns: 1fr; }
+    .product-detail { padding-top: calc(10vh + 1.5rem); }
+    .product-copy { max-width: none; }
+    .related-grid { gap: 1rem; }
+    .related-card h3 { font-size: 1.1rem; }
+    .logo { padding-left: 0; }
+    nav ul li { margin-right: 10px; }
+    header { padding: .75rem; }
+}
