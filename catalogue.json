@@ -1,0 +1,128 @@
+[
+  {
+    "id": "botanical-gentle-cleanser",
+    "name": "Botanical Gentle Cleanser",
+    "category": "Sensitive Skin",
+    "image": "image/profuct-1.jpg",
+    "ingredients": "Aloe Vera & Green Tea",
+    "description": "A gentle daily cleanser that removes impurities while leaving skin feeling fresh and comfortable.",
+    "benefits": [
+      "Gentle Cleansing",
+      "Refreshing",
+      "Skin Comfort"
+    ],
+    "size": "250 ml"
+  },
+  {
+    "id": "calming-face-mist",
+    "name": "Calming Face Mist",
+    "category": "Sensitive Skin",
+    "image": "image/profuct-2.jpg",
+    "ingredients": "Chamomile & Centella",
+    "description": "A lightweight botanical mist that refreshes and comforts delicate skin throughout the day.",
+    "benefits": [
+      "Refreshing",
+      "Soothing",
+      "Lightweight"
+    ],
+    "size": "100 ml"
+  },
+  {
+    "id": "soothing-recovery-serum",
+    "name": "Soothing Recovery Serum",
+    "category": "Sensitive Skin",
+    "image": "image/profuct-3.jpg",
+    "ingredients": "Centella & Panthenol",
+    "description": "A nourishing serum that helps maintain skin hydration and leaves sensitive skin feeling calm and soft.",
+    "benefits": [
+      "Skin Comfort",
+      "Hydration",
+      "Barrier Support"
+    ],
+    "size": "30 ml"
+  },
+  {
+    "id": "daily-glow-serum",
+    "name": "Daily Glow Serum",
+    "category": "Normal Skin",
+    "image": "image/profuct-4.jpg",
+    "ingredients": "Vitamin E & Chamomile",
+    "description": "A lightweight facial serum that nourishes the skin and enhances its natural-looking radiance.",
+    "benefits": [
+      "Radiance",
+      "Nourishing",
+      "Softness"
+    ],
+    "size": "30 ml"
+  },
+  {
+    "id": "balancing-face-oil",
+    "name": "Balancing Face Oil",
+    "category": "Normal Skin",
+    "image": "image/profuct-5.jpg",
+    "ingredients": "Jojoba Oil & Squalane",
+    "description": "A silky facial oil that helps soften and condition skin without leaving a heavy finish.",
+    "benefits": [
+      "Nourishing",
+      "Softening",
+      "Lightweight Finish"
+    ],
+    "size": "30 ml"
+  },
+  {
+    "id": "botanical-hydration-serum",
+    "name": "Botanical Hydration Serum",
+    "category": "Normal Skin",
+    "image": "image/profuct-6.jpg",
+    "ingredients": "Hyaluronic Acid & Aloe Vera",
+    "description": "An everyday hydrating serum that replenishes moisture and leaves skin feeling smooth and refreshed.",
+    "benefits": [
+      "Hydration",
+      "Smoothness",
+      "Freshness"
+    ],
+    "size": "30 ml"
+  },
+  {
+    "id": "deep-hydration-serum",
+    "name": "Deep Hydration Serum",
+    "category": "Dry Skin",
+    "image": "image/profuct-9.jpg",
+    "ingredients": "Hyaluronic Acid & Chamomile",
+    "description": "A moisture-boosting serum that hydrates dry skin and supports a softer, plumper appearance.",
+    "benefits": [
+      "Deep Hydration",
+      "Plumping",
+      "Softness"
+    ],
+    "size": "30 ml"
+  },
+  {
+    "id": "nourishing-botanical-lotion",
+    "name": "Nourishing Botanical Lotion",
+    "category": "Dry Skin",
+    "image": "image/profuct-8.jpg",
+    "ingredients": "Shea Butter & Vitamin E",
+    "description": "A comforting daily lotion that helps replenish moisture and leaves dry skin feeling silky-soft.",
+    "benefits": [
+      "Nourishing",
+      "Moisturizing",
+      "Skin Comfort"
+    ],
+    "size": "250 ml"
+  },
+  {
+    "id": "moisture-barrier-essence",
+    "name": "Moisture Barrier Essence",
+    "category": "Dry Skin",
+    "image": "image/profuct-7.jpg",
+    "ingredients": "Ceramides & Green Tea",
+    "description": "A lightweight moisturizing essence that helps retain hydration and keeps skin feeling comfortable.",
+    "benefits": [
+      "Barrier Support",
+      "Hydration",
+      "Lightweight"
+    ],
+    "size": "100 ml"
+  }
+]

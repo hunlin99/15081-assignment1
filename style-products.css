@@ -206,6 +206,15 @@ a:hover, a:visited, a:link, a:active {
         .footerR {
             display: none; /* Hide the footerR div */
         }
-    
+
     }
-    
+
+/* Keep linked product cards in the original three-column catalogue layout. */
+.catalogue-category {
+    max-width: 90vw;
+    padding-bottom: var(--spacing-unit);
+    scroll-margin-top: 12vh;
+}
+.product-card { display: block; height: 100%; }
+.product-card:focus-visible { outline: 3px solid var(--footer-text-color); outline-offset: 4px; }
+.product-card p { color: var(--text-color); }

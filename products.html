@@ -5,13 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style-products.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!--AOS animation links-->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Products | Organic Care</title>
 </head>
 
 <body>
@@ -19,9 +14,10 @@
         <div class="logo"><a href="./index.html">OC</a></div>
         <nav>
             <ul>
+                <li><a href="./index.html">Home</a></li>
                 <li><a href="./products.html">Product</a></li>
                 <li><a href="./about.html">About</a></li>
-                <li><a href="./checkout.html"><i class='fas fa-shopping-cart' style='font-size:1.2em'></i></a></li>
+                <li><a href="./checkout.html">Checkout</a></li>
             </ul>
         </nav>
     </header>
@@ -33,63 +29,72 @@
             </div>
             <img src="./image/2151382842.jpg" alt="coverimg" class="coverimg">
         </div>
-        <div class="container" id="container">
-            <div class="seemorebox">
-                <h3>Sensitive Skin</h3>
-                <!--<button class="seemore-btn">see more</button>-->
-            </div>
+        <div class="container catalogue-category" id="sensitive-skin">
+            <div class="seemorebox"><h3>Sensitive Skin</h3></div>
             <div class="row">
-                <div class="col col-12 col-md" data-aos="fade-up">
-                    <img src="./image/profuct-1.jpg" alt="">
-                    <p>peoduct-name</p>
+                <div class="col col-12 col-md">
+                    <a class="product-card" href="./botanical-gentle-cleanser.html">
+                        <img src="./image/profuct-1.jpg" alt="Botanical Gentle Cleanser" loading="lazy">
+                        <p>Botanical Gentle Cleanser</p>
+                    </a>
                 </div>
-                <div class="col col-12 col-md" data-aos="fade-up">
-                    <img src="./image/profuct-2.jpg" alt="">
-                    <p>peoduct-name</p>
+                <div class="col col-12 col-md">
+                    <a class="product-card" href="./calming-face-mist.html">
+                        <img src="./image/profuct-2.jpg" alt="Calming Face Mist" loading="lazy">
+                        <p>Calming Face Mist</p>
+                    </a>
                 </div>
-                <div class="col col-12 col-md" data-aos="fade-up">
-                    <img src="./image/profuct-3.jpg" alt="">
-                    <p>peoduct-name</p>
+                <div class="col col-12 col-md">
+                    <a class="product-card" href="./soothing-recovery-serum.html">
+                        <img src="./image/profuct-3.jpg" alt="Soothing Recovery Serum" loading="lazy">
+                        <p>Soothing Recovery Serum</p>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="container" id="container">
-            <div class="seemorebox">
-                <h3>Dry Skin</h3>
-                <!--<button class="seemore-btn">see more</button>-->
-            </div>
+        <div class="container catalogue-category" id="normal-skin">
+            <div class="seemorebox"><h3>Normal Skin</h3></div>
             <div class="row">
-                <div class="col col-12 col-md" data-aos="fade-up">
-                    <img src="./image/profuct-4.jpg" alt="">
-                    <p>peoduct-name</p>
+                <div class="col col-12 col-md">
+                    <a class="product-card" href="./daily-glow-serum.html">
+                        <img src="./image/profuct-4.jpg" alt="Daily Glow Serum" loading="lazy">
+                        <p>Daily Glow Serum</p>
+                    </a>
                 </div>
-                <div class="col col-12 col-md" data-aos="fade-up">
-                    <img src="./image/profuct-5.jpg" alt="">
-                    <p>peoduct-name</p>
+                <div class="col col-12 col-md">
+                    <a class="product-card" href="./balancing-face-oil.html">
+                        <img src="./image/profuct-5.jpg" alt="Balancing Face Oil" loading="lazy">
+                        <p>Balancing Face Oil</p>
+                    </a>
                 </div>
-                <div class="col col-12 col-md" data-aos="fade-up">
-                    <img src="./image/profuct-6.jpg" alt="">
-                    <p>peoduct-name</p>
+                <div class="col col-12 col-md">
+                    <a class="product-card" href="./botanical-hydration-serum.html">
+                        <img src="./image/profuct-6.jpg" alt="Botanical Hydration Serum" loading="lazy">
+                        <p>Botanical Hydration Serum</p>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="container" id="container">
-            <div class="seemorebox">
-                <h3>Combination Skin</h3>
-                <!--<button class="seemore-btn">see more</button>-->
-            </div>
+        <div class="container catalogue-category" id="dry-skin">
+            <div class="seemorebox"><h3>Dry Skin</h3></div>
             <div class="row">
-                <div class="col col-12 col-md" data-aos="fade-up">
-                    <img src="./image/profuct-8.jpg" alt="">
-                    <p>peoduct-name</p>
+                <div class="col col-12 col-md">
+                    <a class="product-card" href="./deep-hydration-serum.html">
+                        <img src="./image/profuct-9.jpg" alt="Deep Hydration Serum" loading="lazy">
+                        <p>Deep Hydration Serum</p>
+                    </a>
                 </div>
-                <div class="col col-12 col-md" data-aos="fade-up">
-                    <img src="./image/profuct-9.jpg" alt="">
-                    <p>peoduct-name</p>
+                <div class="col col-12 col-md">
+                    <a class="product-card" href="./nourishing-botanical-lotion.html">
+                        <img src="./image/profuct-8.jpg" alt="Nourishing Botanical Lotion" loading="lazy">
+                        <p>Nourishing Botanical Lotion</p>
+                    </a>
                 </div>
-                <div class="col col-12 col-md" data-aos="fade-up">
-                    <img src="./image/profuct-7.jpg" alt="">
-                    <p>peoduct-name</p>
+                <div class="col col-12 col-md">
+                    <a class="product-card" href="./moisture-barrier-essence.html">
+                        <img src="./image/profuct-7.jpg" alt="Moisture Barrier Essence" loading="lazy">
+                        <p>Moisture Barrier Essence</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -106,14 +111,10 @@
         <div class="footerR">
             <p>Follow us for more live promotions</p>
             <hr>
-            <a href="#" class="fa fa-facebook" style="font-size:24px"></a>
-            <a href="#" class="fa fa-instagram" style="font-size:24px"></a>
-            <a href="#" class="fa fa-youtube" style="font-size:24px"></a>
+            <a href="#" >Facebook</a>
+            <a href="#" >Instagram</a>
+            <a href="#" >Youtube</a>
         </div>
     </footer>
-    <script>
-        AOS.init();
-    </script>
 </body>
-
 </html>
